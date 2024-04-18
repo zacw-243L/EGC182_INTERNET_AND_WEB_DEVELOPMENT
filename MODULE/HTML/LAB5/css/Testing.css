@@ -1,0 +1,9 @@
+#rectangle{
+    width:400px;
+    height:200px;
+    background:red;
+}
+body{
+    color: white;
+    background-color: black
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lab 17 Practice Exercise</title>
+    <style>
+        label {
+            font-weight: bold;
+        }
+
+        body {
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        nav,
+        footer {
+            font-size: 30px;
+            background-color: aqua;
+            border: 1px solid black;
+            height: 45px;
+            width: 935px;
+        }
+
+        #flex-container {
+            display: flex;
+        }
+
+        #title {
+            vertical-align: middle;
+        }
+
+        #info {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        #MyFavorites {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        #LoginCredential {
+            border: 1px solid blue;
+            padding: 5px;
+        }
+
+        #field3 {
+            width: 905px;
+        }
+
+        #field2 {
+            padding-right: 90px;
+        }
+
+        #field1 {
+            padding-right: 85px;
+        }
+
+        #field1 div {
+            padding: 3px;
+        }
+
+        #field2 div {
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <b id="title">Student Information</b>
+    </nav>
+    <br>
+    <form method="post" action="https://jkorpela.fi/cgi-bin/echo.cgi">
+        <div id="flex-container">
+            <fieldset id="field1">
+                <legend id="info">Personal Information</legend>
+                <br>
+                <div>
+                    <label>Adm No. :</label>
+                    <input name="Adm No." type="text" pattern="[0-9]{6}[A-Za-z]{1}" title="Adm no. is 6 digits and 1 letter" required placeholder="Type Adm No. here" />
+                </div>
+                <br>
+                <div>
+                    <label>Name :</label>
+                    <input name="Name" type="text" pattern="[A-Za-z\s]{5,20}" title="Must be between 5-50 characters only" required placeholder="Type name here" />
+                </div>
+                <br>
+                <div>
+                    <label>Gender :</label>
+                    <input name="gender" type="radio" value="M" required="required">Male &nbsp;&nbsp;
+                    <input name="gender" type="radio" value="F" required="required">Female
+                </div>
+                <br>
+                <div>
+                    <label>Telephone No. :</label>
+                    <input name="Telephone No." type="tel" pattern="[0-9]{8}" title="8 digits phone No. only" required />
+                </div>
+                <br>
+                <diV>
+                    <label>Family Size :</label>
+                    <input name="Family size" type="number" min="1" max="15" required />
+                </diV>
+                <br>
+                <div>
+                    <label>Date of birth :</label>
+                    <input name="DOB" type="date" required />
+                </div>
+                <br>
+                <div>
+                    <label>Race :</label>
+                    <select name="Race" placeholder="">
+                        <option value="Chinese">Chinese</option>
+                        <option value="Malay">Malay</option>
+                        <option value="Tamil">Tamil</option>
+                        <option value="European">European</option>
+                        <option value="Indonesian">Indonesian</option>
+                        <option value="Filipino">Filipino</option>
+                        <option value="Korean">Korean</option>
+                        <option value="Japanese">Japanese</option>
+                        <option value="Thai">Thai</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Personal Email Address :</label><br>
+                    <input name="email" type="email" size="50" required />
+                </div>
+                <br>
+                <div>
+                    <label>Address :</label><br />
+                    <textarea name="Address" rows="3" cols="50" required placeholder="Your home address"></textarea>
+                </div>
+            </fieldset>
+            <fieldset id="field2">
+                <legend id="MyFavorites">My Favorites</legend>
+                <br>
+                <div>
+                    <label>Type of exercise that you like to participate in :</label><br />
+                    <input name="exercise" type="checkbox" value="Jogging" />Jogging &nbsp;
+                    <br>
+                    <input name="exercise" type="checkbox" value="Swimming" />Swimming &nbsp;
+                    <br>
+                    <input name="exercise" type="checkbox" value="Table Tennis" />Table Tennis &nbsp;
+                    <br>
+                    <input name="exercise" type="checkbox" value="Soccer" />Soccer &nbsp;
+                    <br>
+                    <input name="exercise" type="checkbox" value="Others" />Others
+                </div>
+                <br>
+                <br>
+                <br>
+                <div>
+                    <label>Favorite Colour :</label>
+                    <input name="Colour" type="color" />
+
+                </div>
+            </fieldset>
+        </div>
+        <br>
+        <fieldset id="field3">
+            <legend id="LoginCredential">Login Credential</legend>
+            <br>
+            <div>
+                <label>User ID :</label>
+                <input name="User ID" type="text" pattern="[a-z0-9A-Z]{4,8}" required placeholder="4-8 charaters" />
+            </div>
+            <br>
+            <div>
+                <label>Password :</label>
+                <input name="Password" type="password" pattern="[a-z0-9A-Z]{4,8}" required placeholder="4-8 charaters" />
+            </div>
+            <br>
+            <div>
+                <label>Confirm Password :</label>
+                <input name="Comfirm Password" type="password" pattern="[a-z0-9A-Z]{4,8}" required placeholder="4-8 charaters" />
+            </div>
+        </fieldset>
+    </form>
+    <br>
+    <footer>
+        <div>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+        </div>
+    </footer>
+</body>
+
+</html>

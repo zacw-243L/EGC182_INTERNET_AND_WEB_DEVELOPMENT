@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Practise Exercise-221252K</title>
+        <style>
+        * {margin: 0;padding: 0;}
+        main {
+            border: 4px solid blue;
+            width: 80vh;
+        }
+        .items-container {
+            text-align: center;
+            display: grid;
+            grid-column-gap: 5px;
+            grid-row-gap: 5px;
+            grid-template-rows: 1fr 4fr 3fr 3fr 1fr;
+            grid-template-columns: repeat(4, 1fr);
+        }
+        .itemsnav{
+            grid-column: 1/5;
+            border: 1px solid red;
+        }
+        .itemsslider{
+            grid-column: 1/5;
+            border: 1px solid red;
+        }
+        .itemsimage{
+            border: 1px solid red;
+        }
+        .itemsadvert{
+            border: 1px solid red;
+            grid-row: 3/5;
+            grid-column: 4;
+        }
+        </style>
+    </head>
+    <body>
+        <center>
+            <main>
+                <div class="items-container">
+                    <nav class="itemsnav">
+                        <h1>Navigation</h1>
+                        <br>
+                    </nav>
+                    <div class="itemsslider">
+                        <img src="images\slider.PNG" width='100%' height="100%">
+                    </div>
+                    <div class="itemsimage">
+                        <img src="images\Koala.jpg" width='100%' height="100%">
+                    </div>
+                    <div class="itemsimage">
+                        <img src="images\Penguins.jpg" width='100%' height="100%">
+                    </div>
+                    <div class="itemsimage">
+                        <img src="images\Tulips.jpg" width='100%' height="100%">
+                    </div>
+                    <div class="itemsimage">
+                        <img src="images\stonehenge.jpg" width='100%' height="100%">
+                    </div>
+                    <div class="itemsimage">
+                        <img src="images\dc.jpg" width='100%' height="100%">
+                    </div>
+                    <div class="itemsimage">
+                        <img src="images\miyajima.jpg" width='100%' height="100%">
+                    </div>
+                    <div class="itemsadvert">
+                        <img src="images\advert.PNG" width='100%' height="100%">
+                    </div>
+                    <footer class="itemsnav">
+                        <h1>Footer</h1>
+                        <br>
+                    </footer>
+                </div>
+            </main>
+        </center>
+    </body>
+</html>

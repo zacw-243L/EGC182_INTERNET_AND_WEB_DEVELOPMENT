@@ -1,0 +1,119 @@
+* {
+    margin:0px; padding:0px;
+    vertical-align: baseline;
+}
+#wrapper
+{
+	width:960px;
+	margin:10px auto;
+	font-family: Arial, Helvetica, sans-serif ;
+	border:1px solid black;
+	overflow:hidden;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+header{	
+	height: 120px;
+	width:auto;
+	text-align:center;
+	background-color: lightgray;
+	background-image: url(pic_truck_logo.png);
+	background-size: 160px;
+	background-repeat: no-repeat;
+	background-position: 5%;
+}
+body div header h1{
+	color: red;
+}
+section {
+	padding: 25px; 
+	width:710px;
+	float:right;
+	height:350px;
+}
+nav {
+    float: left;
+	padding: 25px;
+	width: 150px;
+	height:350px;
+}
+table ul li
+{
+	margin-left:20px;
+	list-style-type:disc;
+}
+th{
+	font-weight:bold;
+}
+nav ul li
+{
+	margin:0;		/*Setting margins and padding to 0 to remove browser default settings*/
+	padding:0;
+	list-style-type: none;  /*remove the bullets*/	
+}
+nav li a{
+	display:block;    /*to allow changes of- width,height, padding and margin around the link*/
+	width:70px;
+	padding: 5px 10px; /*top and bottom:5px left and right:10px*/
+	text-decoration: none; /* remove the underline of hyperlink */
+	margin:10px;
+	border: 2px solid darkgray;
+	background-color: lightgrey;
+	border-radius: 10px;
+    padding: 10px 40px; 
+}
+nav li a:hover { color: red;background-color: #EEA500;}
+nav li a:active { color:#EEA500}
+table{
+	border: 2px solid rgb(0, 0, 0);
+	border-collapse: collapse;
+	width:100%;
+	margin:5px auto;
+	border-spacing:10px;
+}    
+.bg_product{
+	color: white;
+	background-color: blue;
+}
+th,td
+{
+	border: 2px solid rgb(0, 0, 0);
+	text-align:center;
+	padding : 5px;
+}
+footer {
+	clear:both;
+	text-align: center;
+	height:30px;
+	padding-top:10px;
+	background-color: lightgray;
+}
+ h1
+{
+	padding-top:40px;
+	font-size:200%;
+	text-transform: uppercase;
+}
+.version
+{
+	width : 10%;
+}                               
+.releasedDate
+ {
+    width : 20%;
+ }
+.left
+{
+		text-align : left;
+	
+}
+.product
+{
+		/* border: 2px solid rgb(0, 0, 255); */
+	   padding : 15px;
+}
+
+
+

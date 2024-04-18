@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: rgb(198, 17, 17);
+    height: 150px;
+}
+
+.M {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none
+}
+
+li {
+    text-align: center;
+    padding: 0.25em;
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+nav ul li :hover {
+    color: yellow;
+}
+
+footer {
+    background-color: #242124;
+    color: white;
+    font-size: small;
+    padding: 15px 0;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #C0C0C0;
+}
+
+footer :hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+}
+
+.grid-item1 img {
+    position: relative;
+    top: 10%;
+    right: 10%;
+}
+
+.grid-item2 {
+    background-color: #242124;
+    grid-column: 2/5;
+    grid-row: 1;
+    color: blanchedalmond;
+    text-align: left;
+    padding: 1.5em;
+}
+
+.grid-item2 p {
+    font-size: 20px;
+}
+
+.grid-item2 a {
+    text-decoration: none;
+    color: red;
+}
+
+.grid-item3 h1 {
+    color: blanchedalmond;
+    font-size: 50px;
+    position: relative;
+    top: 50%;
+    right: 0%;
+}
+
+.grid-item4 {
+    background-color: #3c373c;
+    grid-column: 3/5;
+    grid-row: 2;
+    color: blanchedalmond;
+    text-align: left;
+    padding: 2em;
+}
+
+.grid-item4 h3 {
+    font-size: 28px;
+}
+
+.grid-item4 a {
+    text-decoration: none;
+    color: red;
+}
+
+.grid-item4 p {
+    text-decoration: none;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: rgb(203, 202, 202)
+}
+
+section {
+    background-color: #242124;
+    height: 200px;
+}
+
+section ul li {
+    height: 200px;
+}
+
+.F {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.grid-item5 {
+    background-color: #1d1b1d;
+    grid-column: 1/3;
+    color: darkgrey;
+    text-align: left;
+}
+
+.grid-item5 h1 {
+    padding-left: 0.75em;
+    padding-top: 0.75em;
+}
+
+.grid-item5 p {
+    text-align: justify;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 14px;
+}
+
+.grid-item5 li {
+    text-align: left;
+    padding-left: 3em;
+    list-style: inside;
+    color: blanchedalmond;
+}
+
+.grid-item6 {
+    grid-column: 3/5;
+}

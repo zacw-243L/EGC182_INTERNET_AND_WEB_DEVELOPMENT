@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: rgb(198, 17, 17);
+    height: 150px;
+}
+
+.M {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none
+}
+
+li {
+    text-align: center;
+    padding: 0.25em;
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+nav ul li :hover {
+    color: yellow;
+}
+
+footer {
+    background-color: #242124;
+    color: white;
+    font-size: small;
+    padding: 15px 0;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #C0C0C0;
+}
+
+footer :hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.F {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section {
+    background-color: #242124;
+    height: 200px;
+}
+
+section ul li {
+    height: 200px;
+}
+
+header img {
+    position: relative;
+    top: 20%;
+    right: 0%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid-template-rows: repeat(2);
+    text-align: center;
+}
+
+.grid-item1 {
+    grid-column: 1/2;
+}
+
+.grid-item2 {
+    grid-column: 2/3;
+    background-color: #242124;
+    height: 700px;
+}
+
+.grid-item2 h1 {
+    color: azure;
+    padding: 0.2em;
+    padding-left: 1em;
+    text-align: left;
+    font-size: 48px;
+    position: relative;
+    top: 5%;
+}
+
+.grid-item2 p {
+    color: azure;
+    text-align: justify;
+    padding: 1em;
+    padding-top: 1.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    font-size: 18px;
+    line-height: 115%;
+}
+
+.grid-item3 {
+    grid-column: 1/2;
+    grid-row: 2;
+    background-color: #322e32;
+    height: 700px;
+}
+
+.grid-item3 h1 {
+    color: azure;
+    padding: 0.2em;
+    padding-left: 0.5em;
+    text-align: left;
+    font-size: 48px;
+    position: relative;
+    top: 5%;
+}
+
+.grid-item3 p {
+    color: azure;
+    text-align: justify;
+    padding: 2em;
+    padding-top: 1.5em;
+    font-size: 18px;
+    line-height: 115%;
+    position: relative;
+    top: 10%;
+}
+
+.grid-item4 {
+    height: 700px;
+}
+
+.FFS {
+    background-color: #1b1b1b;
+    padding: 2.5em;
+    height: 290px;
+}
+
+.FFS h1 {
+    color: bisque;
+    text-align: center;
+    font-size: 46px;
+}
+
+.FFF {
+    color: red;
+    font-size: 18px;
+    line-height: 135%;
+    position: absolute;
+    left: 40%;
+}
+
+.RRR {
+    color: white;
+    line-height: 135%;
+    font-size: 18px;
+    position: absolute;
+    left: 40%;
+}
+
+.qqd {
+    color: rgb(194, 194, 194);
+    text-align: center;
+}
+
+.qqd a {
+    color: rgb(194, 194, 194);
+    text-decoration-line: underline;
+}
+
+p :hover {
+    text-decoration-line: none;
+    color: yellow;
+}
+
+.NEW {
+    text-align: center;
+    color: bisque;
+    padding: 0.5em;
+    height: 65px;
+    font-size: 38px;
+}
+
+.NEW1 {
+    text-align: center;
+    color: bisque;
+    background-color: #322e32;
+    padding: 0.5em;
+    height: 65px;
+    font-size: 38px;
+    vertical-align: middle;
+}
+
+.grid-c {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.grid-i2 {
+    grid-column: 2/3;
+    grid-row: 1;
+}

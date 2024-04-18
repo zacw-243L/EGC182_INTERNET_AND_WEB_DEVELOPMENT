@@ -1,0 +1,186 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: rgb(198, 17, 17);
+    height: 150px;
+}
+
+form {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 200px;
+}
+
+input {
+    background-color: #b6b6b6;
+    color: #242124;
+    padding: 0.5em;
+    text-align: center;
+    width: 200px;
+
+}
+
+.DAD {
+    position: relative;
+    left: 15px;
+}
+
+.DBD {
+    position: relative;
+    left: 5px;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    border: rgb(255, 255, 255) solid 2px;
+    padding: 1em;
+    width: 110px;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: red;
+    color: white;
+}
+
+.string {
+    text-align: center;
+    font-size: 12px;
+    padding: 0.2em;
+}
+
+.string a {
+    color: white;
+    text-decoration: none;
+}
+
+.string :hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.DI2 {
+    text-align: center;
+}
+
+.M {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.DA {
+    height: 730px;
+}
+
+.square {
+    height: 660px;
+    width: 450px;
+    background-color: rgb(63, 63, 63);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 35px;
+    opacity: 0.85;
+    border: red solid 2px;
+}
+
+.TTS {
+    text-align: center;
+    font-size: 42px;
+    padding: 0.35em;
+    color: white;
+    background-color: #171717;
+}
+
+.NEW {
+    text-align: center;
+    font-size: 22px;
+    padding: 0.25em;
+    color: white;
+    margin-top: 10px;
+}
+
+.NEW1 {
+    color: bisque;
+    text-align: center;
+    padding: 0.75em;
+    margin-top: 10px;
+    line-height: 145%;
+    font-size: 14px;
+}
+
+.DAA {
+    text-align: center;
+}
+
+.AWD9 {
+    text-align: center;
+}
+
+.AWD10 {
+    cursor: pointer;
+    background-color: #b6b6b6;
+    color: #242124;
+    border: rgb(255, 255, 255) solid 2px;
+    padding: 1em;
+    width: 110px;
+    font-size: 16px;
+}
+
+.AWD10:hover {
+    background-color: red;
+    color: white;
+}
+
+ul {
+    list-style-type: none
+}
+
+li {
+    text-align: center;
+    padding: 0.25em;
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+nav ul li :hover {
+    color: yellow;
+}
+
+footer {
+    background-color: #242124;
+    color: white;
+    font-size: small;
+    padding: 15px 0;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #C0C0C0;
+}
+
+footer :hover {
+    color: white;
+    text-decoration: underline;
+}

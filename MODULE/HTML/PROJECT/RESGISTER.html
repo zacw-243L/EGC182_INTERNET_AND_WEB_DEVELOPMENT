@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles 5.css">
+    <title>Resgistration</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <ul class="M">
+                <li><a href="MENU.html" title="Menu" target='_blank'>Menu</a></li>
+                <li><a href="ORDER.html" title="Order" target="_blank">Order</a></li>
+                <li><a href="INDEX.HTML" title="Home" target="_blank"><img src="images/Logo 1.png" height="150px"></a></li>
+                <li><a href="CONTACT US.html" title="Contact Us" target="_blank"> Contact Us</a></li>
+                <li><a href="LOGIN.html" title="Login" target="_blank">Login</a></li>
+            </ul>
+        </nav>
+        <hr noshade color="white">
+        <section class="SDA"> 
+            <div class="RECD">
+                <div class="container">
+                    <h1>Register</h1>
+                    <p>Please fill in this form to create an account.</p>
+                    <br>
+                </div>
+                <hr noshade color="white">
+                <br>
+                <form method="post" action=" https://jkorpela.fi/cgi-bin/echo.cgi " target="_blank">
+                    <br>
+                    <div class="DA1">
+                        <label class="H1">User ID :</label>
+                        <input class=" H11" name="User ID" type="text" pattern="[a-z0-9A-Z]{8,16}" title="Must be between 8-16 characters only" required="required"/>
+                        <br>
+                        <p>only use alphanumerics characters</p>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="DA2">
+                        <label class="H2">Name :</label>
+                        <input class="H21"name="Name" type="text" pattern="[A-Za-z\s]{5,20}" title="Must be between 5-20 characters only" required placeholder="Type name here" required="required" />
+                    </div>
+                    <br>
+                    <br>
+                    <div class="DA3">
+                        <label class="H3">Password :</label>
+                        <input class=" H31" name="Password" type="password" pattern="[a-z0-9A-Z]{8,16}" title="Must be between 8-16 characters only" required="required"/>
+                        <br>
+                        <p>only use alphanumerics characters</p>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="DA4">
+                        <label class="H4">Mobile No. :</label>
+                        <input class=" H41"name="Telephone No." type="tel" pattern="[0-9]{8}" title="8 digits phone No. only" required="required"/>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="DA5">
+                        <label class="H5">Gender :
+                            <label class="H5A">Male
+                                <input name="Gender" type="radio" value="M">
+                            </label>
+                            <label class="H5B">Female
+                                <input class=" H51" name="Gender" type="radio" value="F">
+                            </label>
+                            <label class="H5C">Other:
+                                <input class=" H51" name="Gender" type="text">
+                            </label>
+                        </label>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="DA6">
+                        <label class="H6">Email Address :</label>
+                        <input class=" H61" name="Email" type="email" required="required" />
+                    </div>
+                    <br>
+                    <br>
+                    <div class="DA7">
+                        <label class="H7">Address :</label>
+                        <input class=" H71" name="Address" type="text" required="required">
+                    </div>
+                    <br>
+                    <br>
+                    <div class="DA8">
+                        <label class="H8">Race :</label>
+                        <select class="H81"name="Race">
+                            <option value="Chinese">Chinese</option>
+                            <option value="Malay">Malay</option>
+                            <option value="Tamil">Tamil</option>
+                            <option value="European">European</option>
+                            <option value="Indonesian">Indonesian</option>
+                            <option value="Filipino">Filipino</option>
+                            <option value="Korean">Korean</option>
+                            <option value="Japanese">Japanese</option>
+                            <option value="Thai">Thai</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </div>
+                    <div class="DA9">
+                        <input type="submit" value="Register" />
+                    </div>
+                    <br>
+                </form>
+                <br>
+            </div>
+        </section>
+        <hr noshade color="white">
+        <footer>
+            &#169 Copyright 2022 - Ambush. All rights reserved. Design by <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" title="Are you sure you want to click?">Ong Zachary</a>
+        </footer>
+    </main>
+</body>

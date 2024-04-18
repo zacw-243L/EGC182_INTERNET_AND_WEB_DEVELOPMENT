@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: rgb(198, 17, 17);
+    height: 150px;
+}
+
+.M {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.M li {
+    list-style: none;
+}
+
+section {
+    background-color: #413e41;
+    height: 120px;
+}
+
+
+.Entrée {
+    text-align: center;
+    color: white;
+    background-color: #242124;
+    padding: 0.5em;
+    font-size: 30px;
+}
+
+.grid-Entrée {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 460px);
+    grid-gap: 7px;
+    padding: 7px;
+    text-align: center;
+}
+
+.grid-Entrée div {
+    text-align: center;
+    padding: 0;
+    background-color: #242222;
+    border: white solid 3px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.grid-Entrée div:hover {
+    color: yellow;
+    background-color: red;
+    border: yellow 3px solid;
+}
+
+.grid-Entrée div p {
+    padding: 0.2em;
+}
+
+.Sides {
+    text-align: center;
+    color: white;
+    background-color: #242124;
+    padding: 0.5em;
+    font-size: 30px;
+}
+
+.grid-Sides {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 460px);
+    grid-gap: 7px;
+    padding: 7px;
+    text-align: center;
+}
+
+.grid-Sides div p {
+    padding: 0.2em;
+}
+
+.grid-Sides div {
+    text-align: center;
+    padding: 0;
+    background-color: #242222;
+    border: white solid 3px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.grid-Sides div:hover {
+    color: yellow;
+    background-color: red;
+    border: yellow 3px solid;
+}
+
+.grid-Sides ul {
+    list-style-type: none
+}
+
+.Drinks {
+    text-align: center;
+    color: white;
+    background-color: #242124;
+    padding: 0.5em;
+    font-size: 30px;
+}
+
+.grid-Drinks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 460px);
+    grid-gap: 7px;
+    padding: 7px;
+    text-align: center;
+}
+
+.grid-Drinks div {
+    text-align: center;
+    padding: 0;
+    background-color: #242222;
+    border: white solid 3px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.grid-Drinks div:hover {
+    color: yellow;
+    background-color: red;
+    border: yellow 3px solid;
+}
+
+.grid-Drinks div p {
+    padding: 0.2em;
+}
+
+li {
+    text-align: center;
+    padding: 0.25em;
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+nav ul li :hover {
+    color: yellow;
+}
+
+footer {
+    background-color: #242124;
+    color: white;
+    font-size: small;
+    padding: 15px 0;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #C0C0C0;
+}
+
+footer :hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.AWD9 {
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+.AWD10 {
+    cursor: pointer;
+    background-color: #b6b6b6;
+    color: #242124;
+    border: rgb(255, 255, 255) solid 2px;
+    padding: 1em;
+    width: 110px;
+    font-size: 16px;
+}
+
+.AWD10:hover {
+    background-color: red;
+    color: white;
+}

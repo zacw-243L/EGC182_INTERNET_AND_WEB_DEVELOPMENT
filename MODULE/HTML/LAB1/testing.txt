@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <title>Sample File Lab1</title>
+       <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+         This is what you will see
+  </body>
+</html>

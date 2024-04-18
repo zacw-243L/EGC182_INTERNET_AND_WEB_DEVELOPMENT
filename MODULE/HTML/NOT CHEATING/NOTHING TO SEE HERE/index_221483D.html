@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>[221483D]-Welcome to Scotland</title>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    main {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      background-image: url(images/banner.jpg);
+      background-size: cover;
+      height: 200px;
+      color: lime;
+    }
+
+    header h1 {
+      position: relative;
+      top: 19%;
+      left: 5%;
+    }
+
+    nav {
+      background-color: blue;
+      color: white;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0px;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    li {
+      text-align: center;
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+    }
+
+    li:hover {
+      background-color: gray;
+    }
+
+    li a {
+      text-decoration: none
+    }
+
+    li a {
+      color: white;
+    }
+
+    li a:active {
+      color: white;
+    }
+
+    li a:visited {
+      color: white
+    }
+
+    p {
+      text-align: justify
+    }
+
+    footer {
+      background-color: blue;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    #IMAGE {
+      float: right;
+      width: 30%;
+      border: 10px inset blue;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(5, 20%);
+      grid-template-rows: repeat(2, 50%);
+      grid-column-gap: 7px;
+      grid-row-gap: 7px;
+      padding: 5px;
+    }
+
+    #IMAGE a {
+      margin: 0;
+      padding: 0;
+    }
+
+    .grid-item1 {
+      grid-column: 1/4
+    }
+
+    .grid-item4 {
+      grid-column: 4/6;
+      grid-row: 1/3;
+    }
+  </style>
+</head>
+
+<body>
+  <!--     Paper: A/B/C/D/E/F/G/H/I/J/K -->
+  <!--     Name: Ong Roy  -->
+  <!--     AdminNo: 221483D   -->
+  <main>
+    <nav>
+      <ul class="menu">
+        <li><a href="subfolder/travel-with-us.html" title="Travel with Us" target='_blank'>Travel with
+            Us</a></li>
+        <li><a href="subfolder/maps/regions.html" title="Regions" target='_blank'>Regions</a></li>
+        <li><a href="subfolder/what-to-see.html" title="What to See" target='_blank'>What to See</a>
+        </li>
+        <li><a href="subfolder/maps/city-guides.html" title="City Guides" target='_blank'>City
+            Guides</a></li>
+        <li><a href="subfolder/things-to-do.html" title="Things To Do" target='_blank'>Things To
+            Do</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Welcome to Scotland</h1>
+    </header>
+    <br>
+    <section>
+      <h3>Welcome to Scotland</h3>
+      <div id="IMAGE">
+        <a href="map.html" target="_blank"><img src="images/welcome.jpg" alt="Map" width='100%' height="101%"></a>
+      </div>
+      <p>A holiday to Scotland is always amazing thanks to our <i>ScotSpirit</i> - quite simply it is everywhere you go.
+        But
+        this year, we're combining our unique landscapes, enriching culture and famed warm welcome with a celebration of
+        our built heritage, ingenuity and bold designs in the Year of Innovation, Architecture and Design. So, if you're
+        looking for the the mystery of Nessie, fun of a ceilidh and the wonder of the <strong>Northern Lights</strong>,
+        then Scotland's
+        for you. We would love to share Scotland with you so don't forget to share your experiences with us via
+        <a href="http://www.visitscotland.com/">ScotSpirit</a> and be in the iKnow in Scotland's Community. Within
+        Scotland, the monarchy of the United Kingdom has
+        continued to use a variety of styles, titles and other royal symbols of statehood specific to the pre-union
+        Kingdom of Scotland. The legal system within Scotland has also remained separate from those of England and Wales
+        and Northern Ireland; Scotland constitutes a distinct jurisdiction in both public and private law.
+      </p>
+      <br>
+    </section>
+    <hr>
+    <div class="grid-container">
+      <div class="grid-item1">
+        <img src="images/scotland-flat-2.jpg" width='100%'>
+      </div>
+      <div class="grid-item4" style="text-align: center;">
+        <img src="images/william_wallace.jpg" width='100%' height="92.5%">William Wallace
+      </div>
+      <div class="GG" style="text-align: center;">
+        <img src="images/stag.jpg" width='100%'>Stag
+      </div>
+      <div class="GG" style="text-align: center;">
+        <img src="images/fivesisterofkintail.jpg" width='100%'>Five Sister of Kintail
+      </div>
+      <div class="GG" style="text-align: center;">
+        <img src="images/old_man_of_hoy_orkney.png" width='100%'>Old Man of <br>HoyOrkney
+      </div>
+    </div>
+    <br>
+    <footer>
+      Copyright. All rights reserved. Scotland - [Ong Roy]
+    </footer>
+  </main>
+</body>
+
+</html>

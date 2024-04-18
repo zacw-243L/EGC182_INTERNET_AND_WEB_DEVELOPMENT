@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Positioning Lab</title>
+        <style>
+        * {margin: 0px;padding: 0px;}
+        body {font-family: Tahoma, Geneva, sans-serif;}
+        h1 {font-weight: bold;text-align: center;line-height: 24px;padding: 30px;}
+        main {background-color: cyan;border:1px solid red;width: 800px;height:400px;margin-right: auto;margin-left: auto;position:relative;}
+        .box{width:120px;height:120px;border: 1px solid black;text-align:center;font-size: 2em;color:#FFF;}
+        #red {background-color: red;position: absolute;left:0px;top:0px}
+        #green {background-color:green;position:absolute;right:0px;top:0px;}
+        #blue {background-color: blue;position:absolute;right:0px;bottom:0px;}
+        #purple {background-color: purple;position:absolute;left:0px;bottom:0px;}
+        #footer {background-color: gray;width: 100%;height: 2em;text-align:center;font-size: 2em;color:#FFF;z-index: 2;position: fixed;bottom: 0;right: 0%;}
+        #image-container {width:45%;border: 10px groove orangered; position:relative;top: 15%;left: 0%; margin-left: auto; margin-right: auto;}
+        #image-container img {height:100%;width: 100%;}
+        h4 {color: yellow;font-size: 2em;position: absolute;top: 50%;left: 50%;}
+        </style>
+    </head>
+    <body>
+        <h1>CSS Position: Absolute, Relative, Fixed, Static</h1>
+        <main>
+            <div id="red" class="box">
+                Red
+            </div>
+            <div id="green" class="box">
+                Green
+            </div>
+            <div id="blue" class="box">
+                Blue
+            </div>
+            <div id="purple" class="box">
+                Purple
+            </div>
+            <div id="footer">
+                Footer
+            </div>           
+            <div id="image-container">
+                <img src="images/Penguins.jpg" alt="Penguins.jpg" title="Penguins">
+                <h4>Penguins</h4>
+            </div>
+        </main>
+    </body>
+</html>

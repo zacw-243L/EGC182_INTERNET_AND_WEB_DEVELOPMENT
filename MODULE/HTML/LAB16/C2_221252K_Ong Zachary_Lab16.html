@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lab 16 Practice Exercise</title>
+    <style>
+        label {
+            font-weight: bold;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        nav {
+            font-size: 30px;
+            background-color: aqua;
+            border: 1px solid black;
+            height: 45px;
+        }
+
+        #flex-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #title {
+            vertical-align: middle;
+        }
+
+        #info {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        #activity {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        body {
+            margin-left: auto;
+            margin-right: auto;
+            width: 45%;
+            padding: 5px;
+            border: red 5px solid
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <b id="title">Student Information</b><br /><br />
+    </nav>
+    <br>
+    <form method="post" action="https://jkorpela.fi/cgi-bin/echo.cgi">
+        <div id="flex-container">
+            <fieldset id="field1">
+                <legend id="info">Personal Information</legend>
+                <br>
+                <div>
+                    <label>Adm. No.: </label>
+                    <input name="Adm. No." type="text" />
+                </div>
+                <br>
+                <div>
+                    <label>Name: </label>
+                    <input name="Name" type="text" />
+                </div>
+                <br>
+                <div>
+                    <label>Gender :</label>
+                    <input name="gender" type="radio" value="M" />Male &nbsp;&nbsp;
+                    <input name="gender" type="radio" value="F" />Female
+                </div>
+                <br>
+                <div>
+                    <label>Telephone No.: </label>
+                    <input name="Telephone No." type="text" />
+                </div>
+                <br>
+                <div>
+                    <label>Date of birth: </label>
+                    <input name="DOB" type="date" />
+                </div>
+                <br>
+                <div>
+                    <label>Race :</label>
+                    <select name="Race">
+                        <option value="Chinese">Chinese</option>
+                        <option value="Malay">Malay</option>
+                        <option value="Tamil">Tamil</option>
+                        <option value="European">European</option>
+                        <option value="Indonesian">Indonesian</option>
+                        <option value="Filipino">Filipino</option>
+                        <option value="Korean">Korean</option>
+                        <option value="Japanese">Japanese</option>
+                        <option value="Thai">Thai</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Personal Email Address: </label>
+                    <input name="Personal Email Address" type="text" />
+                </div>
+                <br>
+                <div>
+                    <label>Address:</label><br />
+                    <textarea name="Address" rows="3" cols="30"></textarea>
+                </div>
+            </fieldset>
+            <fieldset id="field2">
+                <legend id="activity">Activities</legend>
+                <div>
+                    <label>Type of exercise that you like to participate in: </label><br />
+                    <input name="exercise" type="checkbox" value="Jogging" />Jogging &nbsp;
+                    <br>
+                    <input name="exercise" type="checkbox" value="Swimming" />Swimming &nbsp;
+                    <br>
+                    <input name="exercise" type="checkbox" value="Table Tennis" />Table Tennis &nbsp;
+                    <br>
+                    <input name="exercise" type="checkbox" value="Soccer" />Soccer &nbsp;
+                    <br>
+                    <input name="exercise" type="checkbox" value="Others" />Others
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Reset" />
+                </div>
+            </fieldset>
+    </form>
+    </div>
+</body>
+
+</html>

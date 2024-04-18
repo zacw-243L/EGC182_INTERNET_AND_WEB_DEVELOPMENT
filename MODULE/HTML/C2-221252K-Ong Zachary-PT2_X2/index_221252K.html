@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>[221252K] PT2-X2</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        main {
+            width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #faebd7;
+            border: black solid 1px;
+            font-family: Verdana, Tahoma, sans-serif;
+        }
+
+        .A {
+            margin: 15px;
+        }
+
+        .B {
+            height: 65px;
+            width: 65px;
+            position: fixed;
+            left: 10px;
+            top: 130px;
+        }
+
+        section h1 {
+            text-align: center;
+            color: #0000ff;
+            font-size: 32px;
+            padding: 0.4em;
+            margin-top: -10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #0000ff;
+            padding: 0.5em;
+            color: white;
+        }
+
+        .AA {
+            text-align: center;
+        }
+
+        .BB {
+            text-align: center;
+            color: #0000ff;
+            font-size: 20px;
+
+        }
+
+        .CC {
+            color: #0000ff;
+            font-size: 20px;
+        }
+
+        .VV1 {
+            font-weight: bold;
+            position: relative;
+            left: 200px
+        }
+
+        .VV2 {
+            font-weight: bold;
+            position: relative;
+            left: 65px;
+        }
+
+        .VV3 {
+            font-weight: bold;
+            position: relative;
+            left: 80px
+        }
+
+        .VV4 {
+            font-weight: bold;
+            position: relative;
+            left: 180px
+        }
+
+        .MM1 {
+            padding: 0.3em;
+            width: 250px;
+            position: relative;
+            left: 210px
+        }
+
+        .MM2 {
+            padding: 0.3em;
+            width: 250px;
+            position: relative;
+            left: 75px
+        }
+
+        .MM3 {
+            padding: 0.3em;
+            width: 250px;
+            position: relative;
+            left: 90px
+        }
+
+        .MM4 {
+            padding: 0.3em;
+            width: 100px;
+            position: relative;
+            left: 190px
+        }
+
+        #info {
+            color: #0000ff;
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        #field1 {
+            padding: 0.7em;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1em;
+            border: 5px solid blue;
+            background-color: #f8d9f8;
+        }
+
+        td,
+        th {
+            border: 5px solid green;
+            padding: 0.4em;
+        }
+    </style>
+</head>
+
+<body>
+    <img class="B" src="_mymedia\livechat.jpg">
+    <!-- CHANGE TO YOUR NAME AND ADMIN NUMBER BELOW -->
+    <!-- ********************** -->
+    <!-- * Name: Ong Zachary * -->
+    <!-- * AdminNo: 221252K   * -->
+    <!-- ********************** -->
+    <main>
+        <header>
+            <img class="A" src="_mymedia\globalStudio.jpg" width="930px">
+        </header>
+        <section>
+            <h1>Fun Studios Booking Form</h1>
+        </section>
+        <table border="1">
+            <tr class="CC">
+                <th colspan="2">Usher in the Fun!!</th>
+                <th>Validity</th>
+            </tr>
+            <tr>
+                <td class="AA">Adult One-Day Ticket + FREE Treats + <br> SGD30 Retail Voucher <br> (Code B1)</td>
+                <td class="AA">SGD 60</td>
+                <th rowspan="2" class="BB">21 Jan 2023 <br> to <br> 15 Feb 2023</th>
+            </tr>
+            <tr>
+                <td class="AA">Adult One-Day Ticket + FREE Treats <br> (Code B2)</td>
+                <td class="AA">SGD 53</td>
+            </tr>
+            <tr>
+                <td class="AA">Enjoy 2 Visits for the Price of 1! <br> (Code B3)</td>
+                <td class="AA">SGD 77</td>
+                <td class="AA">2nd visit can be any time <br> after the 1st visit</td>
+            </tr>
+        </table>
+        <form method="post" action="https://jkorpela.fi/cgi-bin/echo.cgi">
+            <fieldset id="field1">
+                <legend id="info">Enter your Personal Information</legend>
+                <br>
+                <div>
+                    <label class="VV1">*Full Name: </label>
+                    <input class="MM1" name="fullName" type="text" required
+                        placeholder="Your Full Name [max 50 characters]" />
+                </div>
+                <br>
+                <div>
+                    <label class="VV2">*Mobile Number phone <img src="_mymedia\phoneicon.jpg" height="15px">:</label>
+                    <input class="MM2" name="fullName" type="text" required
+                        placeholder="8 digits starting with 8 or 9" />
+                </div>
+                <br>
+                <div>
+                    <label class="VV3">*Email Address email <img src="_mymedia\emailicon.jpg" height="15px">:</label>
+                    <input class="MM3" name="fullName" type="text" required placeholder="valid Email Address" />
+                </div>
+            </fieldset>
+            <fieldset id="field1">
+                <legend id="info">Booking Ticket Details</legend>
+                <div>
+                    <label class="VV4">*Ticket Type:  </label>
+                    <select name="ticketType" class="MM4">
+                        <option value="B1" required="required">Code B1</option>
+                        <option value="B2" required="required">Code B2</option>
+                        <option value="B3" required="required">Code B3</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Payment Mode:</label>
+                    <input name="paymentMode" type="checkbox" value="1" />PayNow &nbsp;
+                    <input name="paymentMode" type="checkbox" value="2" />AliPay  &nbsp;
+                    <input name="paymentMode" type="checkbox" value="3" />Credit Card &nbsp;
+                </div>
+            </fieldset>
+
+        <footer>
+            Copyright &#169 2023 by [Ong Zachary]
+        </footer>
+    </main>
+</body>
+
+</html>

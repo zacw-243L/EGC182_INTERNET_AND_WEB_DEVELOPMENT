@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Penguin?</title>
+        <meta charset='UTF-8'>
+        <style>
+            * {margin: 0;padding: 0;}
+            body{font-family: Arial, Helvetica, sans-serif;}
+            main {border: 2px solid blue; width: 80%;}
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: 0.4fr 1.8fr 1fr 0.4fr;
+                grid-column-gap: 5px;
+                grid-row-gap: 5px;
+            }
+            .HEADER{
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 1;
+                border: 1px solid red;
+                letter-spacing: 1.5em;
+                font-size: larger;
+                position: relative;
+                bottom: 0;
+                left: 0;
+            }
+            .BODY1{
+                border: 1px solid red;
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 2;
+                grid-row-end: 2;
+            }
+            #IMAGE{
+                float:right;
+                width: 35%;
+                height: 60%;
+                margin-right: 15px;
+                padding: 2.5px;
+            }
+            #TEXT{clear: both;}
+            #I1{
+                grid-column-start: 1;
+                grid-column-end: 1;
+                grid-row-start: 3;
+                grid-row-end: 3;
+            }
+            
+            #I2{
+                grid-column-start: 2;
+                grid-column-end: 2;
+                grid-row-start: 3;
+                grid-row-end: 3;
+            }
+            #I3{
+                grid-column-start: 3;
+                grid-column-end: 3;
+                grid-row-start: 3;
+                grid-row-end: 3;
+            }
+            .FOOTER{
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 4;
+                grid-row-end: 4;
+                border: 1px solid red;
+                vertical-align: middle;
+            }
+        </style> 
+    </head>
+    <body>
+        <main>
+            <div class="grid-container">
+                <div class="HEADER">
+                    <br>
+                    <h1>Penguin</h1>
+                </div>
+                <div class="BODY1">
+                    <div id="IMAGE">
+                        <img src="images/penguine.jpg" width='100%' height="100%">
+                    </div>
+                    <div id="TEXT1">
+                        <p><smallcap style="font-variant:small-caps;">PENGUINS </smallcap><i>are birds with black and white feathers and a funny waddle. But unlike most birds, penguins are not able to fly </i> - in the air that is. Penguins spend as much as 75% of their time underwater. searching for food in the ocean. When they are in the water, they dive and flap their wings. It looks just like they are flying! Penguins are shaped like a torpedo. Their body is built for the most efficient swimming with their average speed in the water being about <strong>15 miles per hour</strong>. The largest living species is the emperor penguin. On average, aduolts are about 1.1m tall and weigh 35kg. The smallest penguin species is the known as the fairy penguin, which stands around 33cm tall and weighs 1kg.</p>
+                    </div>
+                    <div id="TEXT">
+                        <br>
+                        <p>Scientific information: Penguins make up  the scientific order  Sphecinisciforms and the family Spheniscidae</p>
+                        <br>
+                    </div>  
+                </div>
+                <div id="I1" style="color: blue; border: 1px solid red;">
+                    <img width ='197' src="images/Penguin1.jpg">
+                    <center>Penguins</center>
+                </div>
+                <div id="I2" style="color: blue; border: 1px solid red;">
+                    <img width ='197' src="images/Penguin2.jpg">
+                    <center>Penguin chick</center>
+                </div>
+                <div id="I3" style="color: blue; border: 1px solid red;">
+                    <img width ='197' src="images/Penguin3.jpg">
+                    <center>Penguin leaping</center>
+                </div>
+                <div class="FOOTER" style="vertical-align: middle;">
+                    <a href="mailto:123456N@penguin.com?subject=Greeting&amp;body=Penguin!">Contact us</a> 
+                    for more information
+                </div>
+            </div> 
+        </main>
+    <body>
+</html>

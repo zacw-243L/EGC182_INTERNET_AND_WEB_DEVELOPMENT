@@ -1,2 +1,2 @@
-# EGC182_INTERNET_AND_WEB_DEVELOPMENT
+# EGC182 INTERNET & WEB DEVELOPMENT
 ALL answers for the labs, test and projects for this module
